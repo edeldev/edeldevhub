@@ -9,7 +9,7 @@ export const Header = () => {
   const [isOpen, setIsOpen] = useState<boolean>(false);
 
   return (
-    <header className="fixed z-10 w-full p-2 md:px-10 md:py-5">
+    <header className="fixed z-20 w-full p-2 md:px-10 md:py-5">
       <div className="2xl:max-w-[1400px] xl:max-w-[1200px] lg:max-w-[1024px] md:max-w-[768px] sm:max-w-[640px] mx-auto border border-border bg-header/70 backdrop-blur-md py-4 px-5 rounded-2xl xl:rounded-full">
         <div className="flex justify-between items-center flex-wrap">
           <div className="flex flex-1">

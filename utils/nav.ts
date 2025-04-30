@@ -1,4 +1,6 @@
-export const NAV_LINK = [
+import { TNavLink } from "./types";
+
+export const NAV_LINK: TNavLink[] = [
   {
     id: 1,
     label: "Home",
