@@ -11,12 +11,13 @@ export const HeroContent = () => {
         <p className="text-[.8rem]">+50 personas lo amaron</p>
       </div>
 
-      <h1 className="lg:h-[155px] bg-opacity-50 bg-gradient-to-b from-neutral-50 to-neutral-400 bg-clip-text text-center text-5xl font-bold text-transparent md:text-7xl">
-        Diseñamos tu <br /> Presencia Digital
+      <h1 className="bg-opacity-50 bg-gradient-to-b from-neutral-50 to-neutral-400 bg-clip-text text-center text-5xl font-bold text-transparent md:text-7xl text-balance">
+        Creamos Sitios Webs Profesionales Que Convierten
       </h1>
       <p className="mx-auto max-w-lg text-center text-lg font-normal text-body text-balance leading-6">
-        Creamos sitios web modernos y funcionales que potencian tu marca y
-        generan resultados.
+        Sitios Web Personalizados y Optimizados para SEO, Velocidad y Conversión
+        — Atrae Más Clientes y Aumenta tus Ventas. ¡Dale un vistazo a tu próxima
+        web!.
       </p>
       <div className="flex gap-5 justify-center flex-wrap">
         <Link

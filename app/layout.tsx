@@ -10,9 +10,9 @@ const manrope = Manrope({
 });
 
 export const metadata: Metadata = {
-  title: "Diseño y desarrollo de páginas web profesional - EdelDevHub",
+  title: "Sitios web profesionales que impulsan tu negocio - EdelDevHub",
   description:
-    "Ofrecemos servicios profesionales de diseño y desarrollo web en México, creando sitios atractivos, funcionales y optimizados para SEO. Mejora tu presencia en línea con expertos en desarrollo web.",
+    "Ofrecemos servicios profesionales de diseño y desarrollo web en México, creando sitios atractivos, funcionales y optimizados para SEO que generan resultados para tu negocio. Mejora tu presencia en línea con expertos en desarrollo web.",
 };
 
 export default function RootLayout({
