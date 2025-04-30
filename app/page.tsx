@@ -1,5 +1,12 @@
-import { HomePage } from "@/components";
+import { Fragment } from "react";
+import { HomePage, Services, Testimonials } from "@/components";
 
 export default function Home() {
-  return <HomePage />;
+  return (
+    <Fragment>
+      <HomePage />
+      <Services />
+      <Testimonials />
+    </Fragment>
+  );
 }
