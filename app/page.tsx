@@ -1,5 +1,5 @@
 import { Fragment } from "react";
-import { HomePage, Services, Testimonials } from "@/components";
+import { HomePage, Responsive, Services, Testimonials } from "@/components";
 
 export default function Home() {
   return (
@@ -7,6 +7,7 @@ export default function Home() {
       <HomePage />
       <Services />
       <Testimonials />
+      <Responsive />
     </Fragment>
   );
 }
