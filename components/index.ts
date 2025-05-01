@@ -3,5 +3,7 @@ export { Header } from "./Header";
 export { Services } from "./Services";
 export { Testimonials } from "./Testimonials";
 export { Responsive } from "./Responsive";
+export { Features } from "./Features";
 export { Spotlight } from "./ui";
 export { Container } from "./Container";
+export { Input } from "./Input";

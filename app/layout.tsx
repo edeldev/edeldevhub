@@ -25,7 +25,7 @@ export default function RootLayout({
       <body className={`${manrope.variable} antialiased`}>
         <Header />
         {children}
-        <div className="fixed bottom-0 left-0 w-full h-3 pointer-events-none z-50 shadow-bottom-blur backdrop-blur-xs" />
+        <div className="fixed bottom-0 left-0 w-full h-5 pointer-events-none z-50 shadow-bottom-blur backdrop-blur-xs" />
       </body>
     </html>
   );

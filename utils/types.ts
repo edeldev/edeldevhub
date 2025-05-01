@@ -16,3 +16,15 @@ export type TTestimonial = {
   name: string;
   title: string;
 };
+
+export type TWhyWithUs = {
+  id: number;
+  title: string;
+  caption: string;
+};
+
+export type TFaq = {
+  id: number;
+  question: string;
+  answer: string;
+};
