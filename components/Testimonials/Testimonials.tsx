@@ -2,18 +2,15 @@ import Link from "next/link";
 import { Container } from "../Container";
 import { InfiniteMovingCards } from "../ui";
 import { TESTIMONIALS } from "@/utils/testimonials";
+import { Heading } from "../Heading";
 
 export const Testimonials = () => {
   return (
     <Container>
-      <div>
-        <h2 className="bg-opacity-50 bg-gradient-to-b from-neutral-50 to-neutral-400 bg-clip-text text-3xl font-bold text-transparent">
-          Testimonios
-        </h2>
-        <p className="text-body text-base mt-3">
-          Experiencias que hablan por sí solas.
-        </p>
-      </div>
+      <Heading
+        title="Testimonios"
+        subtitle="Experiencias que hablan por sí solas."
+      />
       <div className="rounded-md flex flex-col antialiased items-center justify-center relative overflow-hidden">
         <InfiniteMovingCards
           items={TESTIMONIALS}

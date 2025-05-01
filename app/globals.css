@@ -20,6 +20,8 @@
   --color-hover-nav: #2f2f2f;
   --color-button-hover: #1a1a1a;
   --color-icon: #808080;
+  --color-container: #2e2e2e80;
+  --color-focus-input: #ffffff40;
   --shadow-bottom-blur: 0px -10px 20px rgba(0, 0, 0, 0.05);
 }
 
