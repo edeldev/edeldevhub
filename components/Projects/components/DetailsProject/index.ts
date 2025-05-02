@@ -1,0 +1,1 @@
+export { DetailsProject } from "./DetailsProject";

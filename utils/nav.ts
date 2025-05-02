@@ -14,7 +14,7 @@ export const NAV_LINK: TNavLink[] = [
   {
     id: 3,
     label: "Portafolio",
-    link: "/portafolio",
+    link: "#portafolio",
   },
   {
     id: 4,

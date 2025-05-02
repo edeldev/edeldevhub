@@ -32,7 +32,7 @@ export const Responsive = () => {
         </div>
         <div className="mt-10 md:mt-15 flex justify-center md:justify-between items-center flex-wrap text-center md:text-start gap-5">
           <div>
-            <h3 className="font-medium text-lg">
+            <h3 className="font-medium text-lg text-balance">
               ¿Quieres un sitio web que convierta y sea responsivo? Comprueba
               los resultados.
             </h3>
