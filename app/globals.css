@@ -22,7 +22,12 @@
   --color-icon: #808080;
   --color-container: #2e2e2e80;
   --color-focus-input: #ffffff40;
+  --color-border-button: #444444;
+  --color-chip-details: #f5f5f7;
   --shadow-bottom-blur: 0px -10px 20px rgba(0, 0, 0, 0.05);
+}
+html {
+  scroll-behavior: smooth;
 }
 
 html,

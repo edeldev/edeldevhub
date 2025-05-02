@@ -30,7 +30,9 @@ export const WhyWithUs = () => {
                 <h4 className="text-sm md:text-base">{feature.title}</h4>
               </div>
               <div>
-                <p className="text-body text-xs">{feature.caption}</p>
+                <p className="text-body text-xs text-balance">
+                  {feature.caption}
+                </p>
               </div>
             </div>
             <div className="col-span-3 flex justify-center items-center">

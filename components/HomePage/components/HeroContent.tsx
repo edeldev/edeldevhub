@@ -22,7 +22,7 @@ export const HeroContent = () => {
       <div className="flex gap-5 justify-center flex-wrap">
         <Link
           href="#"
-          className="py-2 px-5 border border-[#444444] rounded-full text-body hover:bg-button-hover transition duration-300 ease-in-out w-full sm:w-auto text-center"
+          className="py-2 px-5 border border-border-button rounded-full text-body hover:bg-button-hover transition duration-300 ease-in-out w-full sm:w-auto text-center"
         >
           Cotizar página web
         </Link>

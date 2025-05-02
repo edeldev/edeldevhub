@@ -1,4 +1,5 @@
 export interface IContainer {
+  id?: string;
   children: React.ReactNode;
   className?: string;
 }
