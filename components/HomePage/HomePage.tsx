@@ -6,7 +6,10 @@ import { HeroContent, Technologies } from "./components";
 export const HomePage = () => {
   return (
     <Fragment>
-      <div className="relative flex h-auto md:h-[40rem] w-full overflow-hidden rounded-md bg-black/[0.96] antialiased md:items-center md:justify-center">
+      <div
+        id="home"
+        className="relative flex h-auto md:h-[40rem] w-full overflow-hidden rounded-md bg-black/[0.96] antialiased md:items-center md:justify-center"
+      >
         <div
           className={cn(
             "pointer-events-none absolute inset-0 [background-size:40px_40px] select-none",

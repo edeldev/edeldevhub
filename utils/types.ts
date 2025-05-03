@@ -1,4 +1,6 @@
+import { ISocialMedias } from "@/interface/social-media";
 import { ITechnologies } from "@/interface/technologies";
+import { JSX } from "react";
 
 export type TNavLink = {
   id: number;
@@ -28,3 +30,17 @@ export type TFaq = {
   question: string;
   answer: string;
 };
+
+export type TNAV = {
+  id: number;
+  name: string;
+  link: string;
+};
+
+export type TIconSocialMedia = Record<ISocialMedias, JSX.Element>;
+
+export interface ISocialMedia {
+  id: number;
+  name: ISocialMedias;
+  link: string;
+}
