@@ -11,7 +11,7 @@ export const ContactForm = () => {
               id="name"
               type="text"
               placeholder="Edel Ballesteros"
-              className="rounded-lg bg-neutral-800 text-white px-4 py-2 outline-none"
+              className="w-full rounded-lg bg-neutral-800 text-white px-4 py-2 outline-none"
             />
           </div>
           <div>
@@ -22,7 +22,7 @@ export const ContactForm = () => {
               id="email"
               type="email"
               placeholder="edeldev25@gmail.com"
-              className="rounded-lg bg-neutral-800 text-white px-4 py-2 outline-none"
+              className="w-full rounded-lg bg-neutral-800 text-white px-4 py-2 outline-none"
             />
           </div>
         </div>
