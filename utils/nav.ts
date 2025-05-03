@@ -4,7 +4,7 @@ export const NAV_LINK: TNavLink[] = [
   {
     id: 1,
     label: "Inicio",
-    link: "#home",
+    link: "/#home",
   },
   {
     id: 2,
@@ -14,7 +14,7 @@ export const NAV_LINK: TNavLink[] = [
   {
     id: 3,
     label: "Portafolio",
-    link: "#portafolio",
+    link: "/#portafolio",
   },
   {
     id: 4,
@@ -24,6 +24,6 @@ export const NAV_LINK: TNavLink[] = [
   {
     id: 5,
     label: "Contacto",
-    link: "/",
+    link: "/contact",
   },
 ];

@@ -14,7 +14,7 @@ export const Header = () => {
         <div className="flex justify-between items-center flex-wrap">
           <div className="flex flex-1">
             <Link
-              href="#home"
+              href="/"
               className="hover:text-[#C5C5C5] transition duration-300 ease-in-out"
             >
               EdelDev
