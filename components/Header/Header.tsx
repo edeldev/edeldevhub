@@ -14,7 +14,7 @@ export const Header = () => {
         <div className="flex justify-between items-center flex-wrap">
           <div className="flex flex-1">
             <Link
-              href="/"
+              href="#home"
               className="hover:text-[#C5C5C5] transition duration-300 ease-in-out"
             >
               EdelDev
@@ -57,7 +57,7 @@ export const Header = () => {
               transition={{ duration: 0.3, ease: "easeInOut" }}
               className="overflow-hidden"
             >
-              <Navbar />
+              <Navbar setIsOpen={setIsOpen} />
             </motion.div>
           )}
         </AnimatePresence>

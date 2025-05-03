@@ -5,6 +5,7 @@ export { Testimonials } from "./Testimonials";
 export { Responsive } from "./Responsive";
 export { Features } from "./Features";
 export { Projects } from "./Projects";
+export { Footer } from "./Footer";
 export { Spotlight } from "./ui";
 export { Container } from "./Container";
 export { Input } from "./Input";

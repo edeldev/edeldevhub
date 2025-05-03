@@ -3,13 +3,13 @@ import { TNavLink } from "./types";
 export const NAV_LINK: TNavLink[] = [
   {
     id: 1,
-    label: "Home",
-    link: "/",
+    label: "Inicio",
+    link: "#home",
   },
   {
     id: 2,
     label: "¿Cómo trabajamos?",
-    link: "/como-trabajamos",
+    link: "/",
   },
   {
     id: 3,
@@ -19,11 +19,11 @@ export const NAV_LINK: TNavLink[] = [
   {
     id: 4,
     label: "Plantillas",
-    link: "/plantillas",
+    link: "/",
   },
   {
     id: 5,
     label: "Contacto",
-    link: "/contacto",
+    link: "/",
   },
 ];
