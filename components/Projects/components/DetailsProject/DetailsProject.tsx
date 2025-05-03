@@ -21,7 +21,7 @@ export const DetailsProject = ({
           exit={{ opacity: 0 }}
         >
           <motion.div
-            className="bg-white text-black w-full h-[90vh] py-4 px-5 rounded-2xl shadow-lg overflow-y-auto"
+            className="bg-white text-black w-full h-full py-4 px-5 rounded-2xl shadow-lg overflow-y-auto"
             initial={{ y: 100, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             exit={{ y: 100, opacity: 0 }}
@@ -50,7 +50,7 @@ export const DetailsProject = ({
                   ))}
                 </div>
 
-                <div className="mb-15 flex flex-col items-center">
+                <div className="flex flex-col items-center mb-10">
                   <p className="mb-5 font-bold text-xl text-center">
                     ¿Listo para trabajar con nosotros? ¡Contáctanos abajo y
                     hagamos realidad tu proyecto!
