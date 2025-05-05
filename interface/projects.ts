@@ -1,3 +1,4 @@
+import { TCategories } from "@/utils/types";
 import { StaticImageData } from "next/image";
 
 export interface IProjects {
@@ -5,6 +6,7 @@ export interface IProjects {
   project: string;
   img: StaticImageData;
   detailsImg: StaticImageData;
+  categories: TCategories[];
   chip: TChip[];
   description: TDescription[];
 }

@@ -12,7 +12,7 @@ export const Project = ({ project }: IProject) => {
           alt={project.project}
           width={500}
           height={500}
-          className="rounded-2xl"
+          className="rounded-2xl w-full"
         />
       </Lens>
       <div className="pt-4">

@@ -6,6 +6,8 @@ export { Responsive } from "./Responsive";
 export { Features } from "./Features";
 export { Projects } from "./Projects";
 export { Footer } from "./Footer";
+export { ContactPage } from "./Contact";
+export { ProjectsPage } from "./ProjectsPage";
 export { Spotlight } from "./ui";
 export { Container } from "./Container";
 export { Input } from "./Input";

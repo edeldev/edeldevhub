@@ -10,12 +10,7 @@ export const DetailsProject = ({
   project,
   setOpen,
   isOpen,
-  setSelectProject,
 }: IProjectDetails) => {
-  const handleClose = () => {
-    setSelectProject(null);
-    setOpen;
-  };
   return (
     <AnimatePresence>
       {isOpen && (
@@ -33,11 +28,7 @@ export const DetailsProject = ({
             transition={{ type: "spring", stiffness: 300, damping: 30 }}
           >
             <div className="flex justify-end fixed w-full px-10">
-              <IconX
-                size={30}
-                className="cursor-pointer"
-                onClick={handleClose}
-              />
+              <IconX size={30} className="cursor-pointer" onClick={setOpen} />
             </div>
             <div className="md:w-[80%] mx-auto mt-10">
               <Information project={project} />

@@ -27,7 +27,7 @@ export const HeroContent = () => {
           Cotizar página web
         </Link>
         <Link
-          href="#"
+          href="/projects"
           className="py-2 px-5 bg-white rounded-full text-black font-medium hover:bg-gray-300 transition duration-300 ease-in-out w-full sm:w-auto text-center"
         >
           Ver proyectos

@@ -20,7 +20,7 @@ export const Testimonials = () => {
       </div>
       <Link
         href="#"
-        className="py-2 px-5 bg-white text-sm rounded-full text-black font-medium hover:bg-gray-300 transition duration-300 ease-in-out text-center self-center"
+        className="py-3 px-5 bg-white text-sm rounded-full text-black font-medium hover:bg-gray-300 transition duration-300 ease-in-out text-center self-center"
       >
         ¿Quieres resultados como estos? Hablemos.
       </Link>

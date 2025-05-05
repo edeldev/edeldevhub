@@ -9,7 +9,7 @@ export const SectionHeading = () => {
         subtitle="Cada proyecto es único. Aquí están algunos de mis trabajos."
       />
       <Link
-        href="#"
+        href="/projects"
         className="hidden md:inline-block border-1 border-border-button py-2 px-4 rounded-full text-body hover:bg-button-hover transition duration-300 ease-in-out"
       >
         Ver todo
