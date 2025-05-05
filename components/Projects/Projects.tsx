@@ -64,6 +64,7 @@ export const Projects = () => {
           project={selectProject}
           setOpen={closeProject}
           isOpen={open}
+          setSelectProject={setSelectProject}
         />
       )}
     </Container>
