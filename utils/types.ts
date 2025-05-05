@@ -44,3 +44,7 @@ export interface ISocialMedia {
   name: ISocialMedias;
   link: string;
 }
+
+export type TCategorie = TCategories[];
+
+export type TCategories = "Todo" | "Diseño UI/UX" | "Desarrollo web";

@@ -2,10 +2,13 @@ import { IProjects } from "@/interface/projects";
 import PROJECT1 from "@/public/projects/project1.webp";
 import PROJECT2 from "@/public/projects/project2.webp";
 import PROJECT3 from "@/public/projects/project3.webp";
+import PROJECT4 from "@/public/projects/project4.webp";
 
 import ARQ from "@/public/details-project/ARQ.webp";
 import ROPA from "@/public/details-project/ROPA.webp";
 import UDEMY from "@/public/details-project/UDEMY.webp";
+import DENTISTA from "@/public/details-project/DENTISTA.webp";
+import { TCategorie } from "./types";
 
 export const PROJECTS: IProjects[] = [
   {
@@ -13,6 +16,7 @@ export const PROJECTS: IProjects[] = [
     project: "Sitio web de arquitectura",
     img: PROJECT1,
     detailsImg: ARQ,
+    categories: ["Diseño UI/UX", "Desarrollo web"],
     chip: [
       { id: 1, title: "Diseño UI/UX" },
       { id: 2, title: "Desarrollo web" },
@@ -76,6 +80,7 @@ Mejor posicionamiento en buscadores locales, atrayendo clientes interesados en d
     project: "Sitio web de ropa",
     img: PROJECT2,
     detailsImg: ROPA,
+    categories: ["Diseño UI/UX", "Desarrollo web"],
     chip: [
       { id: 1, title: "Diseño UI/UX" },
       { id: 2, title: "Desarrollo web" },
@@ -141,6 +146,7 @@ Mejor posicionamiento en buscadores locales, atrayendo clientes interesados en d
     project: "Clon de Udemy",
     img: PROJECT3,
     detailsImg: UDEMY,
+    categories: ["Diseño UI/UX", "Desarrollo web"],
     chip: [
       { id: 1, title: "Diseño UI/UX" },
       { id: 2, title: "Desarrollo web" },
@@ -201,4 +207,71 @@ Mejor posicionamiento en buscadores locales, atrayendo clientes interesados en d
       },
     ],
   },
+  {
+    id: 4,
+    project: "Sitio web de Dentista",
+    img: PROJECT4,
+    detailsImg: DENTISTA,
+    categories: ["Diseño UI/UX"],
+    chip: [{ id: 1, title: "Diseño UI/UX" }],
+    description: [
+      {
+        id: 1,
+        title: "Cliente",
+        content:
+          "Una clínica dental moderna que ofrece servicios odontológicos integrales, enfocados en la prevención, el diagnóstico y el tratamiento de problemas bucales. Su misión es brindar atención profesional y cercana, utilizando tecnología de punta para garantizar la salud y estética dental de sus pacientes.",
+      },
+      {
+        id: 2,
+        title: "Descripción del proyecto",
+        content:
+          "La clínica necesitaba una página web clara, profesional y accesible, que reflejara la confianza y calidad de sus servicios. El objetivo principal era facilitar la reserva de citas, ofrecer información detallada sobre los tratamientos y generar cercanía con los pacientes mediante un diseño moderno y humanizado.",
+      },
+      {
+        id: 3,
+        title: "Desafíos del diseño",
+        content: `Accesibilidad y navegación intuitiva: Organizar la información de manera clara para que los usuarios encuentren fácilmente los tratamientos, el equipo médico y los métodos de contacto.
+        
+        Sistema de citas online: Implementar una herramienta fácil de usar que permita agendar citas desde cualquier dispositivo, reduciendo la dependencia de llamadas telefónicas.
+        
+        Diseño que inspire confianza: Crear un entorno visual limpio y profesional, transmitiendo seguridad, experiencia y cercanía al usuario.
+        
+        Optimización para móviles: Asegurar una experiencia fluida y rápida desde smartphones, dado que una gran parte de los usuarios accede desde dispositivos móviles.
+        
+        Informar sin saturar: Presentar los servicios y tratamientos con un equilibrio entre detalle médico y lenguaje claro para el público general.`,
+      },
+      {
+        id: 4,
+        title: "Solución del diseño",
+        content: `Desarrollamos un sitio web moderno, funcional y orientado al paciente, con las siguientes características clave:
+        
+        Interfaz clara y profesional: Utilizamos una paleta de colores suaves y elementos visuales que transmiten limpieza, salud y confianza.
+        
+        Reservas online integradas: Añadimos un sistema de citas intuitivo, permitiendo seleccionar tipo de tratamiento, profesional y horario con unos pocos clics.
+        
+        Páginas de tratamiento informativas: Cada servicio cuenta con una página dedicada que explica el procedimiento, beneficios y cuidados, con imágenes ilustrativas.
+        
+        Responsive design: El sitio se adapta perfectamente a todos los dispositivos, garantizando que los pacientes puedan agendar o informarse en cualquier momento.
+        
+        Optimización SEO y rendimiento: El sitio está estructurado para ser fácilmente indexado por buscadores, con tiempos de carga rápidos y jerarquía de contenidos clara.`,
+      },
+      {
+        id: 5,
+        title: "Resultados",
+        content: `Aumento significativo en el número de citas reservadas online, reduciendo la carga de trabajo del personal administrativo.
+        
+        Mejor experiencia del usuario, reflejada en una mayor duración de la visita al sitio y menor tasa de rebote.
+        
+        Incremento en la confianza del paciente gracias a una presentación profesional y accesible de los servicios.
+        
+        Mayor visibilidad local en buscadores, atrayendo nuevos pacientes mediante búsquedas relacionadas con tratamientos dentales.`,
+      },
+    ],
+  },
+];
+
+export const CATEGORIES: TCategorie = [
+  "Todo",
+  "Diseño UI/UX",
+  "Desarrollo web",
 ];

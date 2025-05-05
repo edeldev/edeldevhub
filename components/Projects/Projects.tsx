@@ -19,7 +19,10 @@ export const Projects = () => {
 
   const closeProject = () => {
     setOpen(false);
-    setTimeout(() => setShowDetails(false), 300);
+    setTimeout(() => {
+      setShowDetails(false);
+      setSelectProject(null);
+    }, 300);
   };
 
   useEffect(() => {
@@ -39,7 +42,7 @@ export const Projects = () => {
     <Container id="portafolio" className="scroll-mt-20">
       <SectionHeading />
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 mx-auto">
-        {PROJECTS.map((project) => (
+        {PROJECTS.slice(0, 3).map((project) => (
           <div
             key={project.id}
             className="col-span-4 bg-neutral-900 p-5 rounded-2xl cursor-pointer"
@@ -52,7 +55,7 @@ export const Projects = () => {
 
       <div className="md:hidden">
         <Link
-          href="#"
+          href="/projects"
           className="border-1 border-border-button py-2 px-6 rounded-full text-body hover:bg-button-hover transition duration-300 ease-in-out"
         >
           Ver todo
@@ -64,7 +67,6 @@ export const Projects = () => {
           project={selectProject}
           setOpen={closeProject}
           isOpen={open}
-          setSelectProject={setSelectProject}
         />
       )}
     </Container>

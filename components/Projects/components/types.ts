@@ -9,5 +9,4 @@ export interface IProjectDetails {
   project: IProjects;
   setOpen: MouseEventHandler<SVGSVGElement>;
   isOpen: boolean;
-  setSelectProject: Function;
 }
