@@ -1,13 +1,48 @@
 "use client";
 import { Fragment, useRef } from "react";
+import { motion, useInView } from "framer-motion";
 import { cn } from "@/utils/cn";
 import { IStep } from "./types";
-import { motion, useInView } from "framer-motion";
+
+const colorVariants = {
+  amber: {
+    bg: "bg-amber-300",
+    circle1: "bg-amber-500",
+    circle2: "bg-amber-600",
+    text: "text-amber-500",
+  },
+  fuchsia: {
+    bg: "bg-fuchsia-300",
+    circle1: "bg-fuchsia-500",
+    circle2: "bg-fuchsia-600",
+    text: "text-fuchsia-500",
+  },
+  emerald: {
+    bg: "bg-emerald-300",
+    circle1: "bg-emerald-500",
+    circle2: "bg-emerald-600",
+    text: "text-emerald-500",
+  },
+  gray: {
+    bg: "bg-gray-300",
+    circle1: "bg-gray-500",
+    circle2: "bg-gray-600",
+    text: "text-gray-500",
+  },
+  cyan: {
+    bg: "bg-cyan-300",
+    circle1: "bg-cyan-500",
+    circle2: "bg-cyan-600",
+    text: "text-cyan-500",
+  },
+};
 
 export const Steps = ({ step, index, isLast }: IStep) => {
   const isEven = index % 2 === 0;
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, margin: "-100px" });
+
+  const colorClass = colorVariants[step.color as keyof typeof colorVariants];
 
   return (
     <Fragment>
@@ -25,20 +60,21 @@ export const Steps = ({ step, index, isLast }: IStep) => {
       >
         <div className="relative rotate-[30deg] w-15 h-20 flex flex-col items-center justify-start mx-auto -mt-10">
           <div
-            className={`w-8 h-8 bg-${step.color}-500 rounded-full shadow-md z-10`}
+            className={`w-8 h-8 ${colorClass.circle1} rounded-full shadow-md z-10`}
           />
           <div
-            className={`w-6 h-6 bg-${step.color}-600 rounded-full mt-[-6px] z-0`}
+            className={`w-6 h-6 ${colorClass.circle2} rounded-full mt-[-6px] z-0`}
           />
           <div className="w-1 h-5 -z-10 bg-white mt-[-7px] transform rotate-[1deg]" />
         </div>
+
         <div
           className={cn(
             "flex flex-col text-black p-3 mx-4 my-4 rounded-xl gap-3 border border-border",
-            `bg-${step.color}-300`
+            colorClass.bg
           )}
         >
-          <p className={`text-${step.color}-500 text-3xl`}>{step.id}</p>
+          <p className={`${colorClass.text} text-3xl`}>{step.id}</p>
           <p className="italic text-xl">{step.title}</p>
           <p className="text-sm">{step.description}</p>
         </div>
