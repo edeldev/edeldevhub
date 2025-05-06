@@ -33,17 +33,17 @@ export const LINKS: TNAV[] = [
   {
     id: 1,
     name: "Inicio",
-    link: "#home",
+    link: "/#home",
   },
   {
     id: 2,
     name: "¿Cómo trabajamos?",
-    link: "",
+    link: "/#hoWeWork",
   },
   {
     id: 3,
     name: "Portafolio",
-    link: "#portafolio",
+    link: "/#portafolio",
   },
   {
     id: 4,
