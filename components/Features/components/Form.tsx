@@ -25,7 +25,7 @@ export const Form = () => {
 
     if (!serviceId || !templateId || !userId) {
       console.error("Missing EmailJS configuration.");
-      toast.error("Hubo un error al enviar el mensaje;;");
+      toast.error("Hubo un error al enviar el mensaje");
       return;
     }
 

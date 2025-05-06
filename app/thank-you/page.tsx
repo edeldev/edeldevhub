@@ -1,5 +1,7 @@
+import { ThanksYouPage } from "@/components";
+
 const ThanksYou = () => {
-  return <div>Thanksyou</div>;
+  return <ThanksYouPage />;
 };
 
 export default ThanksYou;
