@@ -9,7 +9,7 @@ export const NAV_LINK: TNavLink[] = [
   {
     id: 2,
     label: "¿Cómo trabajamos?",
-    link: "/",
+    link: "/#hoWeWork",
   },
   {
     id: 3,

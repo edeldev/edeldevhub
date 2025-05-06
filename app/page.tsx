@@ -6,6 +6,7 @@ import {
   Testimonials,
   Features,
   Projects,
+  HoWeWork,
 } from "@/components";
 
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
       <Testimonials />
       <Responsive />
       <Features />
+      <HoWeWork />
       <Projects />
     </Fragment>
   );
