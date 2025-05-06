@@ -8,6 +8,7 @@ export { Projects } from "./Projects";
 export { Footer } from "./Footer";
 export { ContactPage } from "./Contact";
 export { ProjectsPage } from "./ProjectsPage";
+export { HoWeWork } from "./HoWeWork";
 export { Spotlight } from "./ui";
 export { Container } from "./Container";
 export { Input } from "./Input";
