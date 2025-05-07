@@ -19,7 +19,8 @@ export const Testimonials = () => {
         />
       </div>
       <Link
-        href="#"
+        href="https://wa.me/8123697420/?text=Hola,%20quiero%20un%20proyecto"
+        target="_blank"
         className="py-3 px-5 bg-white text-sm rounded-full text-black font-medium hover:bg-gray-300 transition duration-300 ease-in-out text-center self-center"
       >
         ¿Quieres resultados como estos? Hablemos.

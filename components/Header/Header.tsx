@@ -38,7 +38,8 @@ export const Header = () => {
 
           <div className="hidden xl:flex flex-1 justify-end">
             <Link
-              href="#"
+              href="https://wa.me/8123697420/?text=Quiero,%20cotizar%20un%20proyecto"
+              target="_blank"
               className="bg-white text-center py-2 px-5 rounded-full text-black text-sm font-medium transition duration-300 ease-in-out hover:bg-gray-300"
             >
               Cotiza tu proyecto

@@ -42,7 +42,8 @@ export const Responsive = () => {
           </div>
 
           <Link
-            href="#"
+            href="https://wa.me/8123697420/?text=Hola,%20quiero%20un%20proyecto"
+            target="_blank"
             className="bg-white text-center py-2 px-5 rounded-full text-black text-sm font-medium transition duration-300 ease-in-out hover:bg-gray-300"
           >
             Reserva una llamada
