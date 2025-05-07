@@ -4,8 +4,8 @@ import { Container } from "../Container";
 import {
   ICON_SOCIAL_MEDIA,
   LINKS,
+  PROJECTS,
   SOCIAL_MEDIA,
-  TEMPLATES,
 } from "@/utils/footer";
 import LOGO_EDEL from "@/public/LOGO-EDEL-LIGHT.png";
 
@@ -29,15 +29,15 @@ export const Footer = () => {
 
         <div className="flex justify-between gap-30">
           <div className="flex flex-col gap-3">
-            <h4 className="text-lg">Últimas plantillas</h4>
-            {TEMPLATES.map((template) => (
+            <h4 className="text-lg">Últimos proyectos</h4>
+            {PROJECTS.map((project) => (
               <Link
-                href={template.link}
-                key={template.id}
+                href={project.link}
+                key={project.id}
                 target="_blank"
                 className="text-body cursor-pointer transition duration-300 ease-in-out hover:text-white"
               >
-                {template.name}
+                {project.name}
               </Link>
             ))}
           </div>
@@ -65,9 +65,13 @@ export const Footer = () => {
           <Image src={LOGO_EDEL} alt="logo" width={30} height={30} />
           <p className="text-sm text-body">
             By
-            <span className="underline cursor-pointer transition duration-300 ease-in-out hover:text-white">
+            <Link
+              href="https://www.tiktok.com/@edel.dev?_t=ZM-8tszoN5y8xB&_r=1"
+              target="_blank"
+              className="underline cursor-pointer transition duration-300 ease-in-out hover:text-white"
+            >
               EdelDev
-            </span>
+            </Link>
           </p>
         </div>
       </div>

@@ -18,11 +18,6 @@ export const NAV_LINK: TNavLink[] = [
   },
   {
     id: 4,
-    label: "Plantillas",
-    link: "/",
-  },
-  {
-    id: 5,
     label: "Contacto",
     link: "/contact",
   },

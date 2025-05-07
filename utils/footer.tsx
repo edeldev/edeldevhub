@@ -6,26 +6,26 @@ import {
 } from "@tabler/icons-react";
 import { ISocialMedia, TIconSocialMedia, TNAV } from "./types";
 
-export const TEMPLATES: TNAV[] = [
+export const PROJECTS: TNAV[] = [
   {
     id: 1,
-    name: "Dentista",
-    link: "",
+    name: "Arquitectura",
+    link: "https://parrallax-arquitectura.vercel.app",
   },
   {
     id: 2,
-    name: "Agencia de viajes",
-    link: "",
+    name: "Sitio de ropa",
+    link: "https://ledbeey.vercel.app",
   },
   {
     id: 3,
-    name: "Gym",
-    link: "",
+    name: "EdelvStudio",
+    link: "https://edeldev-studio.vercel.app",
   },
   {
     id: 4,
-    name: "Comida",
-    link: "",
+    name: "EdelFilms",
+    link: "https://edelfilms.netlify.app",
   },
 ];
 
@@ -47,8 +47,8 @@ export const LINKS: TNAV[] = [
   },
   {
     id: 4,
-    name: "Plantillas",
-    link: "",
+    name: "Contacto",
+    link: "/contact",
   },
 ];
 

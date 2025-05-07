@@ -21,7 +21,8 @@ export const HeroContent = () => {
       </p>
       <div className="flex gap-5 justify-center flex-wrap">
         <Link
-          href="#"
+          href="https://wa.me/8123697420/?text=Quiero,%20cotizar%20un%20proyecto"
+          target="_blank"
           className="py-2 px-5 border border-border-button rounded-full text-body hover:bg-button-hover transition duration-300 ease-in-out w-full sm:w-auto text-center"
         >
           Cotizar página web
