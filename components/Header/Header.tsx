@@ -15,6 +15,7 @@ export const Header = () => {
           <div className="flex flex-1">
             <Link
               href="/"
+              onClick={() => setIsOpen(false)}
               className="hover:text-[#C5C5C5] transition duration-300 ease-in-out"
             >
               EdelDev
