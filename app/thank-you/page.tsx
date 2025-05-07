@@ -1,7 +1,11 @@
-import { ThanksYouPage } from "@/components";
+import { FadeIn, ThanksYouPage } from "@/components";
 
 const ThanksYou = () => {
-  return <ThanksYouPage />;
+  return (
+    <FadeIn>
+      <ThanksYouPage />
+    </FadeIn>
+  );
 };
 
 export default ThanksYou;

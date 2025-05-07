@@ -7,12 +7,15 @@ import {
   Features,
   Projects,
   HoWeWork,
+  FadeIn,
 } from "@/components";
 
 export default function Home() {
   return (
     <Fragment>
-      <HomePage />
+      <FadeIn>
+        <HomePage />
+      </FadeIn>
       <Services />
       <Testimonials />
       <Responsive />

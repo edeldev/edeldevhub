@@ -1,7 +1,11 @@
-import { ContactPage } from "@/components";
+import { ContactPage, FadeIn } from "@/components";
 
 const Contact = () => {
-  return <ContactPage />;
+  return (
+    <FadeIn>
+      <ContactPage />
+    </FadeIn>
+  );
 };
 
 export default Contact;

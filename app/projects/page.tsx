@@ -1,7 +1,11 @@
-import { ProjectsPage } from "@/components";
+import { FadeIn, ProjectsPage } from "@/components";
 
 const Proejcts = () => {
-  return <ProjectsPage />;
+  return (
+    <FadeIn>
+      <ProjectsPage />
+    </FadeIn>
+  );
 };
 
 export default Proejcts;
