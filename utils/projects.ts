@@ -77,7 +77,7 @@ Mejor posicionamiento en buscadores locales, atrayendo clientes interesados en d
   },
   {
     id: 2,
-    project: "Sitio web de ropa",
+    project: "E-commerce de ropa",
     img: PROJECT2,
     detailsImg: ROPA,
     categories: ["Diseño UI/UX", "Desarrollo web"],
