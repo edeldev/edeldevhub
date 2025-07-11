@@ -1,12 +1,14 @@
 "use client";
-import { NAV_LINK } from "@/utils/nav";
-import Link from "next/link";
 import { useState } from "react";
-import { Menu, Navbar } from "./components";
+import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { motion, AnimatePresence } from "framer-motion";
+import { Menu, Navbar } from "./components";
+import { NAV_LINK } from "@/utils/nav";
 
 export const Header = () => {
   const [isOpen, setIsOpen] = useState<boolean>(false);
+  const pathname = usePathname();
 
   return (
     <header className="fixed z-40 w-full p-2 md:px-10 md:py-5">
@@ -25,7 +27,10 @@ export const Header = () => {
           <nav className="hidden xl:block">
             <ul className="flex gap-1">
               {NAV_LINK.map((nav) => (
-                <li key={nav.id}>
+                <li key={nav.id} className="relative">
+                  {pathname === nav.link && (
+                    <span className="absolute w-1 h-1 rounded-full bg-body -bottom-3 left-1/2 transform -translate-1/2" />
+                  )}
                   <Link
                     href={nav.link}
                     className="py-2 px-5 rounded-full hover:bg-hover-nav transition duration-300 ease-in-out"

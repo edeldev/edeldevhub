@@ -4,17 +4,17 @@ export const NAV_LINK: TNavLink[] = [
   {
     id: 1,
     label: "Inicio",
-    link: "/#home",
+    link: "/",
   },
   {
     id: 2,
-    label: "¿Cómo trabajamos?",
-    link: "/#hoWeWork",
+    label: "Plantillas",
+    link: "/templates",
   },
   {
     id: 3,
     label: "Portafolio",
-    link: "/#portafolio",
+    link: "/projects",
   },
   {
     id: 4,
