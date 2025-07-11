@@ -48,3 +48,6 @@ export interface ISocialMedia {
 export type TCategorie = TCategories[];
 
 export type TCategories = "Todo" | "Diseño UI/UX" | "Desarrollo web";
+
+export type TTemplateType = "gratis" | "pago";
+export type TTemplateCategory = "todo" | "gratis" | "pago";

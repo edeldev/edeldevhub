@@ -14,3 +14,4 @@ export { Spotlight } from "./ui";
 export { Container } from "./Container";
 export { Input } from "./Input";
 export { FadeIn } from "./Transition/FadeIn";
+export * from "./Templates";
