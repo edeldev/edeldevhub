@@ -5,7 +5,7 @@ import { DescriptionId, Includes, TitleId } from "./components";
 export const TemplateId = ({ template }: ITemplateId) => {
   return (
     <>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
         <TitleId template={template} />
 
         <div>

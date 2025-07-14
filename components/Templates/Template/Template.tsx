@@ -11,7 +11,7 @@ export const Template = ({ filteredTemplates }: IFilteredTemplate) => {
         ({ id, slug, title, img, caption, type, discount, price }) => (
           <Link key={id} href={`/templates/${slug}`}>
             <motion.div
-              className="bg-neutral-900 p-5 rounded-2xl flex flex-col justify-between"
+              className="bg-neutral-900 p-5 rounded-2xl flex flex-col justify-between h-full min-h-[380px]"
               whileHover={{ scale: 1.02, transition: { duration: 0.2 } }}
               whileTap={{ scale: 0.95 }}
               initial={{ opacity: 0, y: 20 }}
