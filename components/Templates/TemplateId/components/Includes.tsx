@@ -2,7 +2,7 @@ import { IIncludes } from "./types";
 
 export const Includes = ({ template }: IIncludes) => {
   return (
-    <div className="col-span-12 md:col-span-3">
+    <div className="col-span-12 md:col-span-3 order-1 md:order-2">
       {template.type === "pago" ? (
         <h3 className="text-2xl font-semibold mb-5">Páginas</h3>
       ) : (
